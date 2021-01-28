@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 
 // accept all routes
 app.get('*', function (req, res) {
-  res.send('Welcome to RV Troop');
+  res.send('Welcome to RV Troop - For Those Who Love RVs and the RV Life');
 });
 
 const server = app.listen(port, () => {
